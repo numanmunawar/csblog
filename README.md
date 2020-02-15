@@ -1,2 +1,2 @@
 # csblog
-# a blog Must-Read Software Development Blogs
+# a blog for Must-Read Software Development Blogs
