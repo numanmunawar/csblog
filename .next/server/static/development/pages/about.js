@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -193,7 +193,28 @@ const Navbar = () => __jsx("nav", {
     lineNumber: 21
   },
   __self: undefined
-}, "About")))))));
+}, "About"))), __jsx("li", {
+  className: "nav-item",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
+  },
+  __self: undefined
+}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/register",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}, __jsx("a", {
+  className: "nav-link",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}, "profile")))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
 
@@ -1882,37 +1903,77 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/nav */ "./components/nav.js");
+/* harmony import */ var react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Modal */ "react-bootstrap/Modal");
+/* harmony import */ var react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Button */ "react-bootstrap/Button");
+/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/home/numan/Desktop/csblogs/pages/about.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
 
 
 const About = () => __jsx("div", {
   className: "hero",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 4
+    lineNumber: 7
   },
   __self: undefined
-}, __jsx("h1", {
+}, __jsx(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_2___default.a.Dialog, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 5
+    lineNumber: 8
   },
   __self: undefined
-}, "About CS Blog"), __jsx("p", {
+}, __jsx(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_2___default.a.Header, {
+  closeButton: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6
+    lineNumber: 9
   },
   __self: undefined
-}, "Application to view CS Blog"));
+}, __jsx(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_2___default.a.Title, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, "Register")), __jsx("div", {
+  className: "btnreg",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, __jsx(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_2___default.a.Body, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, __jsx(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  variant: "primary",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18
+  },
+  __self: undefined
+}, "Login"), __jsx(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  variant: "primary",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
+  },
+  __self: undefined
+}, "Signup")))));
 
 __jsx("style", {
   jsx: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 26
   },
   __self: undefined
 }, `
@@ -1922,13 +1983,19 @@ __jsx("style", {
             alignitems: "center";
 
         }
+        .btnreg {
+          display: flex;
+          justify-Content : "space_Between";
+          align-Itmes : "center";
+          font-size: 50px;
+        }
       `);
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ }),
 
-/***/ 4:
+/***/ 6:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
@@ -2025,6 +2092,28 @@ module.exports = require("prop-types-exact");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-bootstrap/Button":
+/*!*****************************************!*\
+  !*** external "react-bootstrap/Button" ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/Button");
+
+/***/ }),
+
+/***/ "react-bootstrap/Modal":
+/*!****************************************!*\
+  !*** external "react-bootstrap/Modal" ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/Modal");
 
 /***/ }),
 
