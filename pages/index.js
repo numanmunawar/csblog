@@ -1,14 +1,23 @@
 import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
-// import about from '../pages/about'
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import about from '../pages/about
+
+
 
 const Home = () => (
   <div>
     <Head>
       <title>Home</title>
       <link rel="icon" href="/favicon.ico" />
-      <link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.min.css"/>
+      {/* <link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.min.css"/> */}
+      <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossOrigin="anonymous"
+      />
 
     </Head>
 
